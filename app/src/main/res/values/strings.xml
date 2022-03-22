@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Munchkin</string>
+    <string name="player5">Player5:</string>
+    <string name="player2_name">Player2 name</string>
+    <string name="player4_name">Player4 name</string>
+    <string name="player3_name">Player3 name</string>
+    <string name="player1_name">Player1 name</string>
+    <string name="play">Play</string>
+    <string name="player5_name">Player5 name</string>
+    <string name="player6_name">Player6 name</string>
+    <string name="player1">Player1:</string>
+    <string name="todo1">TODO</string>
+    <string name="todo2">TODO</string>
+    <string name="todo3">TODO</string>
+    <string name="player2">Player2:</string>
+    <string name="player3">Player3:</string>
+    <string name="player4">Player4:</string>
+    <string name="player6">Player6:</string>
+    <string name="todo4">TODO</string>
+    <string name="todo5">TODO</string>
+    <string name="todo6">TODO</string>
+</resources>

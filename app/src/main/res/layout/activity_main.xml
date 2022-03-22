@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:backgroundTint="@color/background"
+
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="64dp"
+        android:text="@string/player1"
+        android:textColor="#795548"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="@string/player5"
+        android:textColor="#795548"
+        app:layout_constraintStart_toStartOf="@+id/PLayer4_name"
+        app:layout_constraintTop_toBottomOf="@+id/PLayer4_name" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="@string/player6"
+        android:textColor="#795548"
+        app:layout_constraintStart_toStartOf="@+id/PLayer5_name"
+        app:layout_constraintTop_toBottomOf="@+id/PLayer5_name" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="@string/player4"
+        android:textColor="#795548"
+        app:layout_constraintStart_toStartOf="@+id/PLayer3_name"
+        app:layout_constraintTop_toBottomOf="@+id/PLayer3_name" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="@string/player3"
+        android:textColor="#795548"
+        app:layout_constraintStart_toStartOf="@+id/PLayer2_name"
+        app:layout_constraintTop_toBottomOf="@+id/PLayer2_name" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="@string/player2"
+        android:textColor="#795548"
+        app:layout_constraintStart_toStartOf="@+id/PLayer1_name"
+        app:layout_constraintTop_toBottomOf="@+id/PLayer1_name" />
+
+    <EditText
+        android:id="@+id/PLayer1_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:hint="@string/player1_name"
+        android:inputType="textPersonName"
+        android:textColorHint="#795548"
+        app:layout_constraintStart_toStartOf="@+id/textView"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        tools:ignore="TouchTargetSizeCheck"
+        android:autofillHints="" />
+
+    <EditText
+        android:id="@+id/PLayer5_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:hint="@string/player5_name"
+        android:inputType="textPersonName"
+        android:textColorHint="#795548"
+        app:layout_constraintStart_toStartOf="@+id/textView2"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        tools:ignore="TouchTargetSizeCheck"
+        android:autofillHints="" />
+
+    <EditText
+        android:id="@+id/PLayer6_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:hint="@string/player6_name"
+        android:inputType="textPersonName"
+        android:textColorHint="#795548"
+        app:layout_constraintStart_toStartOf="@+id/textView6"
+        app:layout_constraintTop_toBottomOf="@+id/textView6"
+        tools:ignore="TouchTargetSizeCheck"
+        android:autofillHints="" />
+
+    <EditText
+        android:id="@+id/PLayer4_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:hint="@string/player4_name"
+        android:inputType="textPersonName"
+        android:textColorHint="#795548"
+        app:layout_constraintStart_toStartOf="@+id/textView3"
+        app:layout_constraintTop_toBottomOf="@+id/textView3"
+        tools:ignore="TouchTargetSizeCheck"
+        android:autofillHints="" />
+
+    <EditText
+        android:id="@+id/PLayer3_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:hint="@string/player3_name"
+        android:inputType="textPersonName"
+        android:textColorHint="#795548"
+        app:layout_constraintStart_toStartOf="@+id/textView4"
+        app:layout_constraintTop_toBottomOf="@+id/textView4"
+        tools:ignore="TouchTargetSizeCheck"
+        android:autofillHints="" />
+
+    <EditText
+        android:id="@+id/PLayer2_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:hint="@string/player2_name"
+        android:inputType="textPersonName"
+        android:textColorHint="#795548"
+        app:layout_constraintStart_toStartOf="@+id/textView5"
+        app:layout_constraintTop_toBottomOf="@+id/textView5"
+        tools:ignore="TouchTargetSizeCheck"
+        android:autofillHints="" />
+
+    <ImageView
+        android:id="@+id/iv_Player1"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginBottom="8dp"
+        android:clickable="true"
+        android:contentDescription="@string/todo1"
+        android:focusable="true"
+        app:layout_constraintBottom_toBottomOf="@+id/PLayer1_name"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/PLayer1_name"
+        app:srcCompat="@drawable/munchkin_m"
+        tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck,DuplicateSpeakableTextCheck" />
+
+    <ImageView
+        android:id="@+id/iv_Player2"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginBottom="8dp"
+        android:clickable="true"
+        android:contentDescription="@string/todo3"
+        android:focusable="true"
+        app:layout_constraintBottom_toBottomOf="@+id/PLayer2_name"
+        app:layout_constraintStart_toStartOf="@+id/iv_Player1"
+        app:srcCompat="@drawable/munchkin_m"
+        tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+    <ImageView
+        android:id="@+id/iv_Player3"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginBottom="8dp"
+        android:clickable="true"
+        android:contentDescription="@string/todo2"
+        android:focusable="true"
+        app:layout_constraintBottom_toBottomOf="@+id/PLayer3_name"
+        app:layout_constraintStart_toStartOf="@+id/iv_Player2"
+        app:srcCompat="@drawable/munchkin_m"
+        tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+    <ImageView
+        android:id="@+id/iv_Player4"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginBottom="8dp"
+        android:clickable="true"
+        android:contentDescription="@string/todo4"
+        android:focusable="true"
+        app:layout_constraintBottom_toBottomOf="@+id/PLayer4_name"
+        app:layout_constraintStart_toStartOf="@+id/iv_Player3"
+        app:srcCompat="@drawable/munchkin_m"
+        tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+    <ImageView
+        android:id="@+id/iv_Player5"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginBottom="8dp"
+        android:clickable="true"
+        android:contentDescription="@string/todo5"
+        android:focusable="true"
+        app:layout_constraintBottom_toBottomOf="@+id/PLayer5_name"
+        app:layout_constraintStart_toStartOf="@+id/iv_Player4"
+        app:srcCompat="@drawable/munchkin_m"
+        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+    <ImageView
+        android:id="@+id/iv_Player6"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginBottom="8dp"
+        android:clickable="true"
+        android:contentDescription="@string/todo6"
+        android:focusable="true"
+        app:layout_constraintBottom_toBottomOf="@+id/PLayer6_name"
+        app:layout_constraintStart_toStartOf="@+id/iv_Player5"
+        app:srcCompat="@drawable/munchkin_m"
+        tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+    <Button
+        android:id="@+id/btn_play"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="8dp"
+        android:backgroundTint="@color/back"
+        android:text="@string/play"
+        android:textColor="#212121"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="TextContrastCheck" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
